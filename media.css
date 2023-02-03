@@ -1,0 +1,72 @@
+    @media(min-width: 800px) {
+    .about-info{
+        
+           flex-direction: row-reverse;      
+           margin: 0 auto;
+     
+    }
+    
+    .info{
+ height: 80vh;
+        display: flex;
+        margin-left: 5rem;
+         
+    } .info-img{
+        margin-left: 14rem;
+        width: 10vw;
+    } .rodape > p{
+        font-size: 2rem;
+    }  .fa-brands{
+        font-size: 2rem;
+    }
+   
+
+}
+    @media(min-width: 1024px){ 
+    
+    .services{
+        display: flex;
+        gap: 1em;
+        max-width: 800rem;
+    } .box-hero{
+        margin: 0 auto;
+display: flex;
+flex-direction: row;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        width: 90rem;
+
+
+        /* width: 140em; */
+
+    } .content{
+        max-width: 400px;
+        text-align: center;
+    }
+    .box-hero > article{
+        text-align: center;
+        margin-top: 4rem;
+       width: 25em; 
+
+    } .title{
+     text-align: center;
+        font-size: 3rem;
+    }  .hero-port{
+        margin-top: 4rem;
+       text-align: center;
+      
+    }    .infos{
+          font-size: 2rem;
+    } #file{
+        font-size: 2rem
+    }  .heading-1, .heading-2{
+        font-size: 2.8rem;
+    } .heading-1 > span{
+        font-size: 3rem;
+    }
+         
+        
+    
+
+}
