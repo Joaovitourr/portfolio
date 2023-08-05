@@ -1,0 +1,654 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    border: none; 
+
+
+} body{
+background-color: #141414;
+overflow-x: hidden;
+
+
+
+} 
+
+
+.nav{
+    position: relative;
+} .ul-mobile{
+    background-color: #000;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    transform: translateX(-1000%);
+    position: absolute;
+    transition: 0.5s ease-in;
+} .ul-mobile > li{
+    padding-top: 1rem;
+}
+
+.hamburguer{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    z-index: 1000;
+    cursor: pointer;
+    min-width: 24px;
+ 
+} .span-hamburguer{
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 0.3rem;
+    margin: 0.5rem;
+     background-color: rgb(255, 255, 255);
+     z-index: 9999;
+     transition: 1s;
+ 
+} .menu-desktop{
+    display: none;
+}
+
+
+
+ .open-hamburguer{
+    transform: translateX(0%);
+    transition: 0.5s ease-in;
+
+    
+}  .close-modal{
+    transform: translateX(-10000%);
+    transition: 0.5s ease-out;
+} 
+
+.section-header{
+    background-color: #000000;
+
+
+
+} 
+
+ select{
+    
+    margin: 1rem;
+    background-color: #0F1010;
+    height: 2rem;
+    text-align: left;
+    width: 9rem;
+     font-family: sans-serif;
+     letter-spacing: 0.5px;
+     border: 1px solid #fff;
+     font-weight: 600;
+     font-family: "Roboto";
+     letter-spacing: 1.5px;
+     font-size: 1rem;
+      padding-left: 1rem;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     background: url(./icon-arrow.png) 100% / 15% no-repeat #000;
+ 
+
+   
+} 
+
+option{
+    text-align: right;
+ 
+} .header-info{
+    max-width: 20rem;
+    text-align: left; 
+}
+
+.heading-header{
+    font-size: 1.3rem;
+    padding: 1rem 0rem;
+} .destaque{
+    color: #1697F4;
+    cursor: none;
+} .heading-two{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+} .paragraph-header{
+    font-size: 1.4rem;
+} .btn-header{
+    margin: 1rem 0rem; 
+    background-color: #252525;
+   width: 10rem;
+   height: 2.3rem;
+   font-size: 1.2rem;
+} .btn-header:hover{
+    transition: 1s ease-in;
+    background-color: #3b3b3b;
+    cursor: pointer;
+  } .btn-header > a {
+      color: #fff;
+      width: 100%;
+  } 
+  
+.header-content{
+    margin-left: 1rem;
+} 
+.header-img{
+    margin-top: 1rem;
+    text-align: right;
+}
+.icon-header{
+    max-width: 24rem;
+    height: 20rem;
+    object-fit: cover;
+    position: relative;
+ 
+} 
+
+.about-title{
+    padding: 1rem 0rem;
+    font-size: 1.5REM;
+    font-weight: 600;
+    text-align: center;
+} .container-about{
+    margin-top: 0.3rem;
+     background-color: #000000;
+}  .about-info-content{
+   margin-left: 1rem;
+  
+} 
+.about-info-content > p{
+    padding: 0.5rem 0rem;
+    max-width: 25rem;
+    text-align: left;
+    font-family: sans-serif;
+
+} .icon-about{
+    margin: 1rem 0rem;
+    width: 24rem;
+    height: 30rem;
+    object-fit: cover;
+} .container-skills{
+    margin-top: 0.3rem;
+   background-color: #0C0C0C;
+  
+}
+
+.heading-skills{
+    text-align: center;
+    padding: 1rem 0rem 2rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+} .article-skills{
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: left;
+    background-color: rgb(0, 0, 0);
+    max-width: 19rem;
+
+
+}  .section-container-skills{
+    padding-bottom: 2rem;
+}
+
+
+
+.skill-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    border: 1px solid #424242;
+
+
+
+
+
+}  
+
+.title-skills{
+    font-size: 1.3rem;
+    padding: 0.5rem 0rem;
+    margin-left: 1rem;
+    color: #989898;
+    
+ 
+}  .skill-body{
+    font-size: 1.2rem;
+    background-color: #fff;
+    padding: 0.6rem 1rem;
+
+} .skill-body > p {
+    color: #5A5A5A;
+} .skill-footer{
+    border: 1px solid #424242;
+} 
+.skill-footer > p{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    padding: 2rem 0rem;
+}  .item-show{
+    overflow: hidden;
+    max-height: 0rem;
+
+   
+}  .item-visible{
+    transition: 2s ease-in;
+    max-height: 12rem;
+} 
+  .item-hidden{
+    display: none;
+    max-height: 0rem;
+    overflow: hidden;
+    transition: 2s ease-in;
+  
+} 
+ 
+
+.title-decoration{
+    color: #fff;
+    transition: 1s ease-in;
+} 
+
+ .cursos-container{
+    margin-top: 0.3rem;
+    background-color: #0C0C0C;
+    padding-bottom: 1rem;
+} .heading-cursos{
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+} .article-cursos{
+    background-color: #000;
+    width: 18rem;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+
+} .cursos-content{
+    text-align: left;
+    margin: 1rem 2rem;
+    position: relative;
+} .cursos-content::after{
+    position: absolute;
+    content: "";
+    width: 0.1rem;
+    top: 1.9rem;
+    height: 12rem;
+    left: -2rem;
+    background-color:  #5A5A5A;
+}
+
+.curso-titulo, .curso-horas, .curso-status{ 
+    font-size: 1.3rem;
+    padding: 1.3rem 0rem;
+    color: #D8D8D8;
+
+} .curso-plataforma{
+    color: #5C5B5B;
+    padding: 2rem 0rem;
+} .container-projetos{
+    background-color: #0C0C0C;
+    padding-bottom: 2rem;
+    margin-top: 0.3rem;
+}
+
+.projeto-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+}
+
+.article-projetos{
+    border-radius: 10px;
+    width: 18rem;
+          margin: 0 auto;
+      margin-top: 1rem;
+    background-color: #000;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #5A5A5A;
+} .icon-projetos{
+    width: 18rem;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+} .projeto-titulo, .projeto-habilidades{
+    color: #D8D8D8;
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+} .btn-projects{
+    cursor: pointer;
+   width: 12rem;
+        margin: 1rem;
+    height: 2.8rem;
+    background-color: #1A1A1A;
+} .btn-projects > a{
+    color: #fff;
+    font-size: 1.2rem;
+} .faq-container{
+    background-color: #000;
+    margin-top: 0.3rem;
+} .faq-content{
+    padding-bottom: 1rem;
+} 
+.faq-title{
+    text-align: center;
+    padding: 1rem 0rem;
+} 
+
+.accordion{
+    max-width: 20rem; 
+    margin: 0 auto;
+    margin-top: 1rem;
+    overflow: hidden;
+    background-color: #242424;
+    width: 100%;
+   
+
+} .accordion-header{
+    position: relative;
+    cursor: pointer;
+    text-align: left;
+    max-width: 19rem; 
+    padding: 0.4rem 0.5rem 0.5rem;
+   
+    font-family: sans-serif;
+    
+} .accordion-header::after{
+    position: absolute;
+    right: -0.8rem;
+    font-size: 1em;
+    top: 0.3rem;
+    content: "+";
+      cursor: pointer;
+} 
+.accordion-header.active::after{
+
+    content: "-";
+
+} 
+
+
+.accordion-body{
+  
+        max-height: 0rem;
+    opacity: 0;
+    margin-left: 0.5rem;
+    width: 100%;
+    font-family: sans-serif;
+    color: #f1f1f1;
+ 
+
+
+}  .open-accordion{
+    text-align: left;
+       max-height: 12rem;
+       opacity: 1;
+       transition: 0.4s;
+       padding: 1rem 0rem;
+
+   
+   } .close-accordion{
+       max-height: 0rem;
+       opacity: 0;
+       border: none;
+ 
+   
+   }
+
+.footer{
+    text-align: center;
+    padding-bottom: 2rem;
+
+} .footer-links > ul{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0rem;
+
+
+}     [data-anime]{
+    opacity: 1;
+} [data-anime="left"]{
+    transform: translate3d(-1000%, 0,0);
+
+  } 
+  [data-anime="down"]{
+    transform: translate3d(0, -100%,0);
+    opacity: 0;
+   }
+ [data-anime].show{
+    opacity: 1;
+    transition: 1s;
+   transform: translate3d(0,0,0);
+ }  .icon-sociais{
+    width: 2rem;
+    height: 2rem;
+ }
+
+ @media (max-width: 400px) {
+        .icon-about, .icon-header{
+            width: 100%;
+            overflow: hidden;
+           
+        } .faq-content{ 
+            max-width: 25rem;
+        
+           
+        } .accordion{
+            width: 19rem;
+        } .accordion-header{
+            width: 17rem;
+        }
+ }
+
+ @media (min-width: 700px){
+    .header-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 80rem;
+    } .about-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+    } .about-info-content > p{
+        font-size: 1.6rem;
+        max-width: 33rem;
+        text-align: left;
+        padding-right: 1rem;
+  
+      
+    } .icon-about{
+      
+        transform: rotateY(180deg);
+    } .accordion{
+        min-width: 25rem;
+    } .accordion-header{
+        font-size: 1.3rem;
+        max-width: 90%;
+        text-align: left;
+    }
+    
+}
+ 
+  
+
+@media (min-width: 768px){
+    .hamburguer{
+        display: none;
+    } .ul-mobile{
+        display: none;
+    } .menu-desktop{
+        display: block;
+    } .ul-desktop{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } .ul-desktop > li{
+        display: inline-block;
+        font-size: 1.5rem;
+        margin: 0rem 2rem;
+        padding-top: 1rem;
+    } select{
+        position: absolute;
+        right: 0;
+        top: 0;
+    } 
+}
+
+@media (min-width: 860px){
+
+    
+    .header-info{
+        display: flex;
+        align-items: center;
+        max-width: 66rem;
+        justify-content: center;
+        margin: 0 auto;
+   
+    } .header-content{
+        width: 33rem;
+        margin-right: 8rem;
+      
+      
+       
+    } 
+    .heading-header{
+        font-size: 2.4rem;
+    } .heading-two{
+        font-size: 2rem;
+        margin: 1rem 0rem;
+    } .icon-header{
+        width: 40rem;
+        height: 30rem;
+    } .paragraph-header{
+        font-size: 2rem;
+    } .btn-header{
+        margin-top: 2rem;
+        height: 3.3rem;
+        width: 15rem;
+        font-size: 1.6rem;
+       
+    } .section-about{
+        min-width: 50rem;
+        margin: 0 auto;
+    }
+    
+    .about-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    
+    .icon-about{
+        display: flex;
+        flex-direction: column-reverse;
+          width: 30rem;
+          height: 38rem;
+          object-fit: contain;
+      
+    }  .heading-skills {
+        font-size: 1.8rem;
+    }  .section-container-skills{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 70rem;
+        margin: 0 auto;
+    } .article-skills{
+        max-width: 25rem;
+        margin: 0rem 1rem;
+        gap: 1rem;
+        margin-top: 2rem;
+    } .article-projetos{
+        width: 23rem;
+
+    } .icon-projetos{
+        width: 23rem;
+    } .projeto-titulo{
+        font-size: 2rem;
+    } .projeto-habilidades{
+        font-size: 1.8rem;
+    } .btn-projects{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+         margin-top: 1rem;
+         
+          width: 16rem;
+        height: 3rem;
+    } .btn-projects > a {
+        font-size: 1.4rem;
+    } .accordion{
+        max-width: 50rem; 
+        text-align: left;
+        
+    } .accordion-header{
+        padding: 1rem;
+        max-width: 45rem;
+        font-size: 2rem;
+
+    } .accordion-header::after{
+        position: absolute;
+        top: 0.6rem;
+        right: -4rem;
+        font-size: 1.9rem;
+    } .faq-title{
+        font-size: 2.3rem;
+    }
+    
+    .faq-content{
+        max-width: 50rem;
+        margin: 0 auto;
+        text-align: center;
+    } .accordion-body{
+        padding: 0rem 0.8rem 1rem 0.6rem;
+        font-size: 1.6rem;
+        
+    }  .projeto-heading{
+        padding: 1rem 0rem 5rem; 
+        font-size: 2.4rem;
+    } .paragraph-footer{
+        font-size: 1.8rem;
+    } 
+}  
+
+@media (min-width: 1060px){
+    .heading-cursos{
+        font-size: 2rem;
+    } .section-cursos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 50rem;
+        margin: 0 auto;
+      
+        gap: 3rem;
+    } .curso-titulo, .curso-horas, .curso-status{ 
+        font-size: 1.6rem;
+    } .curso-plataforma{
+        font-size: 1.4rem;
+    }  .section-projetos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 70rem;
+        gap: 2rem;
+        margin: 0 auto;
+        flex-wrap: wrap;
+   
+    } 
+} 
+
+@media (min-width: 1240px){
+    .section-cursos, .section-projetos{
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
